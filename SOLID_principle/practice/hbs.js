@@ -1,8 +1,8 @@
+import { Booking, Customer, Person } from "./RoomBooking.js";
+import { PaymentCalculator } from "./PaymentCalculator.js";
 import { BookingPrinter } from "./BookingPrinter.js";
 import { Feedback } from "./Feedback.js";
 import { Offers } from "./Offers.js";
-import { PaymentCalculator } from "./PaymentCalculator.js";
-import { Booking, Customer, Person } from "./RoomBooking.js";
 
 let person1 = new Person("Ben", 21);
 let person2 = new Person("Sam", 22);
