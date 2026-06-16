@@ -40,6 +40,7 @@ class NewPrinter {
     this.faxing.fax(document);
   }
 }
+
 const printer = new Printer();
 const scanner = new Scanner();
 const faxing = new Faxing();
